@@ -9,6 +9,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background: black;
 }
 
 nav {
@@ -27,7 +28,7 @@ nav img {
 .app {
   position: relative;
   display: block;
-  background-image: url(/IMG_0985.PNG);
+  background-image: url(/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -84,7 +85,7 @@ h1 img {
 
 #qr-canvas {
   margin: auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   max-width: 400px;
 }
 
