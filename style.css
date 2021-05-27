@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  font-size: 1rem;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #48a8c5;
+  height: 7rem;
+  /* border-bottom: 4px solid white; */
+}
+
+nav img {
+  max-height: 5rem;
+  width: auto;
+  align-self: center;
+}
+
+.app {
+  position: relative;
+  display: block;
+  background-image: url(/IMG_0985.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.app::after {
+  content: "";
+  background: rgba(9, 12, 8, 0.527);
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.app > * {
+  z-index: 10;
+}
+
+h1 {
+  color: white;
+  align-self: center;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+h2 {
+  font-family: "Alex Brush", cursive;
+  font-size: 3rem;
+  color: white;
+  margin-left: 1rem;
+  align-self: center;
+  color: #e8a847;
+  text-shadow: 5px 5px 5px rgb(71, 65, 65);
+}
+
+h1 img {
+  height: 2rem;
+  background-color: white;
+  padding: 4px;
+}
+
+#container {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+#qr-canvas {
+  margin: auto;
+  width: calc(100% - 20px);
+  max-width: 400px;
+}
+
+#btn-scan-qr {
+  cursor: pointer;
+}
+
+#btn-scan-qr img {
+  height: 10em;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+}
+
+#qr-result {
+  font-size: 1.2em;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  background-color: white;
+}
